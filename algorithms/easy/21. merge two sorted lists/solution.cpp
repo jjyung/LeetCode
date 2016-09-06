@@ -13,7 +13,6 @@ public:
         ListNode* tmp = head;
         
         while(l1 != NULL && l2 != NULL) {
-            
             if(l1->val <= l2->val) {
                 head->next = l1;
                 l1 = l1->next;
